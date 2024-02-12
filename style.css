@@ -1,0 +1,188 @@
+/* Write some CSS below */
+body {
+	color: #B25740;
+	font-family: Chivo;
+	margin: 0;
+
+}
+
+h1 {
+	color:#B25740;
+	text-indent: 5px;
+
+}
+
+h2 {
+	color:#B25740;
+	text-indent: 20px;
+
+}
+
+
+
+div {
+	background-color: 
+
+
+}
+
+
+.banner{
+
+	color: #FFA23A;
+	padding: 50px;
+	text-align: center;
+    background-image: url(images/BG.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    margin: 0;
+
+}
+
+.card{
+	color: #B25740 ;
+	background-color: #F9EFE3 ;
+	border-radius: 10px;
+	padding: 25px;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	margin: 8px;
+	object-fit: cover;
+	text-align: center;
+
+}
+
+.card_gel {
+	color: #B25740 ;
+	background-color: #F9EFE3 ;
+	border-radius: 10px;
+	padding: 25px;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	margin: 8px;
+	object-fit: cover;
+	text-align: center;
+
+}
+
+.card_shellac {
+	color: #B25740 ;
+	background-color: #F9EFE3 ;
+	border-radius: 10px;
+	padding: 25px;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	margin: 8px;
+	object-fit: cover;
+	text-align: center;
+
+}
+
+.card_acrylic {
+	color: #B25740 ;
+	background-color: #F9EFE3 ;
+	border-radius: 10px;
+	padding: 25px;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	margin: 8px;
+	object-fit: cover;
+	text-align: center;
+
+}
+
+.cards_techniques {
+	display: grid ;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+
+
+}
+
+.footer{
+	color: #FFA23A;
+	padding: 20px;
+	text-align: center;
+    background-image: url(images/BG.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    margin: 0;
+}
+
+.cards{
+	display: grid ;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+
+
+}
+
+.btn{    
+
+	background-color: #FC9881;
+    color: #F9EFE3;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+  background-color: #6482F4;
+  color: #F9EFE3;
+}
+
+.btn_pin {
+
+background-color: #FC9881;
+    color: #F9EFE3;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.btn_pin:hover {
+  background-color: #B25740;
+  color: #F9EFE3;
+}
+
+@media (min-width: 300px) {
+  .container {
+    width: 400px;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 700px) {
+  .container {
+    width: 600px;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards_techniques {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 900px;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .cards_techniques {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
